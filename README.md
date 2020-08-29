@@ -4,3 +4,4 @@ The aim of this project is to detect covid-19 from images of CT-Scans. As we all
 Data was collected from various repositories and hospitals. Since it is collected from various sources, due to the differences in the x-ray machine from which they are obtained, it was really hard to train a CNN model which could yield as good accuracy. So, we used segmentation as the preprocessing technique to extract the Region of Interest(ROI) of the given image and fed it to a classifier.
 ## About Segmentation model:
 We used BCD U-net for segmentation. It was pretrained on the large open-sourced kaggle lung-segmentation dataset and with the help of transfer learning, we used this model to perform the basic preprocessing which was discussed in earlier section.<br/>
+!['Segmenation_results](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/segmentaion_results.png)
