@@ -10,7 +10,7 @@ We framed the problem as binary classification and trained an EfficientNetB0(wit
 !['Training Pipeline'](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/pipeline.png)
 
 ## Training curves:
-!['Loss'](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/loss.png) <br/>
+!['Loss'](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/loss.png) 
 !['accuracy'](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/acc.png)
 
 ## Results:
