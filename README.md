@@ -20,3 +20,10 @@ F1 Score  : 0.823 <br/>
 Recall    : 0.848 <br/>
 Precision : 0.800 <br/>
 ROC AUC   : 0.806 <br/>
+![confusion Matrix](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/figure10.png)<br/>
+
+## GradCams:
+We used a technique called ‘GradCam’ for plotting and obtaining a visualheatmap which is useful to test the reliability of the model in the real world.Gradcam is a technique that enables researchers to debug their models visually. It uses  gradient  information  flowing  from  every  neuron  into  the  last  layer  tocompute each neuron’s interest. This eventually gives us a heatmap activatingsome of the regions in which most of the neurons are interested in.<br/>
+!['heatmaps'](https://github.com/mano3-1/Covid-detection-with-CT-scans/blob/master/Results/gradcam.png)
+
+
